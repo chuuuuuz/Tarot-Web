@@ -1,7 +1,7 @@
 <template>
   <section class="Home">
     <div class="text">
-      <h3>深呼吸，屏除雜念，開始你的塔羅占卜之旅</h3>
+      <h3>深呼吸，屏除杂念，开始你的塔罗占卜之旅</h3>
       <Textarea v-model.trim="textValue" placeholder="你要占卜的问题（必须）" :disabled="loadingStatus" />
     </div>
     <template v-if="!loadingStatus">
